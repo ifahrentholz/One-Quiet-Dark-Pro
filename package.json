@@ -4,6 +4,10 @@
   "description": "Based on the `One Dark Pro` theme it's added BOLD text for key identifiers in code.",
   "version": "1.0.0",
   "publisher": "ifahrentholz",
+  "repository": {
+    "type": "git",
+    "url": "https: //github.com/ifahrentholz/One-Quiet-Dark-Pro"
+  },
   "engines": {
     "vscode": "^1.27.0"
   },
