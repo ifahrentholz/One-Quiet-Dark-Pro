@@ -97,6 +97,52 @@
   },
   "tokenColors": [
     {
+      "name": "PHP: Delimiters",
+      "scope": ["punctuation.section.embedded.metatag.php"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "support.class, entity.name.type.class",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Type Name",
+      "scope": "entity.name.type",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class.identifier.namespace.type",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "meta.require", "support.function.any-method", "variable.function"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "name": "Comments: Keywords",
+      "scope": ["comment.keyword", "keyword.codetag", "keyword.phpdoc"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Support type",
       "scope": "support.type.property-name",
       "settings": {
@@ -137,14 +183,6 @@
       "scope": "keyword.other.important",
       "settings": {
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": ["entity.name.function", "meta.require", "support.function.any-method", "variable.function"],
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#61AFEF"
       }
     },
     {
@@ -647,20 +685,6 @@
       }
     },
     {
-      "name": "Classes",
-      "scope": "support.class, entity.name.type.class",
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
-      "name": "Class name",
-      "scope": "entity.name.class.identifier.namespace.type",
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
       "name": "Class name",
       "scope": ["entity.name.class", "variable.other.class.js", "variable.other.class.ts"],
       "settings": {
@@ -672,13 +696,6 @@
       "scope": "variable.other.class.php",
       "settings": {
         "foreground": "#e06c75"
-      }
-    },
-    {
-      "name": "Type Name",
-      "scope": "entity.name.type",
-      "settings": {
-        "foreground": "#E5C07B"
       }
     },
     {

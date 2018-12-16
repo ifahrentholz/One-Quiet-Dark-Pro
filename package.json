@@ -2,7 +2,7 @@
   "name": "one-quiet-dark-pro",
   "displayName": "One Quiet Dark Pro",
   "description": "Based on the `One Dark Pro` theme it's added BOLD text for key identifiers in code.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "ifahrentholz",
   "repository": {
     "type": "git",
